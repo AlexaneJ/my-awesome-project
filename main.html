@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="src/style.css" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <script
+      src="https://kit.fontawesome.com/95ae57c46d.js"
+      crossorigin="anonymous"
+    ></script>
+    <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+  </head>
+  <body>
+    <div class="first">
+      <form id="form">
+        <input type="text" placeholder="Enter a city name..." id="place" />
+        <input type="submit" value="Search" id="other" />
+        <button class="btn btn-success w-100" id="location-button">
+          Current
+        </button>
+      </form>
+      <h1>
+        Toulouse
+      </h1>
+      <h2>
+        <div id="currentDate">
+          January, Sunday 17th 13:18
+        </div>
+        <strong>
+          <span class="degree" id="temperature">
+            12
+          </span>
+          <small>
+            <span class="units">
+              <a href="#" id="celcius">°C </a> |
+              <a href="#" id="fahrenheit">°F </a>
+            </span>
+          </small>
+        </strong>
+      </h2>
+      <p>
+        <i class="fas fa-cloud-rain"></i>
+      </p>
+      <h3>
+        In the next few days...
+      </h3>
+      <div class="second">
+        <div class="third">
+          <ul>
+            <li>
+              Monday
+            </li>
+            <li>
+              <strong> 3°C </strong>
+            </li>
+            <li class="fourth">
+              <i class="fas fa-sun"></i>
+            </li>
+          </ul>
+        </div>
+        <div class="third">
+          <ul>
+            <li>
+              Tuesday
+            </li>
+            <li>
+              <strong> 1°C </strong>
+            </li>
+            <li class="fourth">
+              <i class="fas fa-cloud-rain"></i>
+            </li>
+          </ul>
+        </div>
+        <div class="third">
+          <ul>
+            <li>
+              Wednesday
+            </li>
+            <li>
+              <strong> 2°C </strong>
+            </li>
+            <li class="fourth">
+              <i class="fas fa-cloud-sun"></i>
+            </li>
+          </ul>
+        </div>
+        <div class="third">
+          <ul>
+            <li>
+              Thursday
+            </li>
+            <li>
+              <strong> 3°C </strong>
+            </li>
+            <li class="fourth">
+              <i class="fas fa-cloud-sun"></i>
+            </li>
+          </ul>
+        </div>
+        <div class="third">
+          <ul>
+            <li>
+              Friday
+            </li>
+            <li>
+              <strong> 0°C </strong>
+            </li>
+            <li class="fourth">
+              <i class="fas fa-cloud-rain"></i>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <script src="src/java.js"></script>
+  </body>
+</html>

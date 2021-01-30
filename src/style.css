@@ -1,0 +1,131 @@
+.first {
+    background-color: #fff;
+    border-width: 15px;
+    border-style: solid;
+    border-color: #fccb90;
+    margin: 40px 150px 50px;
+    max-block-size: 50%;
+    border-radius: 25px;
+    padding: 30px;
+    margin: 50 auto;
+  }
+  
+  .third {
+    display: inline-block;
+    margin: -5px;
+  }
+  
+  form {
+    text-align: left;
+  }
+  
+  input {
+    border-radius: 7px;
+    border-style: solid;
+    border-color: #fccb90;
+    border-width: 5px;
+    background-color: white;
+  }
+
+  button {
+    border-radius: 7px;
+    border-style: solid;
+    border-color: #f5ce86;
+    border-width: 5px;
+    background-color: #fae0c1;
+  }
+  
+  input .submit {
+    color: grey;
+  }
+  
+  h1 {
+    text-align: center;
+    color: #6639a6;
+    font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", sans-serif;
+    letter-spacing: 0px;
+    line-height: 50px;
+    margin-bottom: -20px;
+  }
+  
+  h2 {
+    text-align: center;
+    color: #6639a6;
+    font-family: "Courier New", monospace;
+    letter-spacing: -1px;
+    margin-bottom: 10px;
+  }
+  
+  strong {
+    line-height: 50px;
+  }
+  
+  p {
+    text-align: center;
+    font-size: 100px;
+    line-height: 100px;
+    margin-top: 0;
+    margin-bottom: 50px;
+  }
+  
+  h3 {
+    text-align: center;
+    margin-top: 0;
+    color: #aa96da;
+    font-size: 25px;
+    margin-bottom: 10px;
+    font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", sans-serif;
+    letter-spacing: 0px;
+  }
+  
+  li {
+    text-align: center;
+    list-style-type: none;
+    word-spacing: 22px;
+    line-height: 25px;
+    font-size: 18px;
+    color: #aa96da;
+    font-family: "Courier New", monospace;
+    letter-spacing: -1px;
+  }
+  
+  .fourth {
+    line-height: 50px;
+    font-size: 50px;
+  }
+  
+  .fa-cloud-rain {
+    color: #c8e7ed;
+  }
+  
+  .fa-cloud-sun {
+    color: #f2c6b4;
+  }
+  
+  .fa-sun {
+    color: #ffbd39;
+  }
+  
+  .second {
+    text-align: center;
+  }
+  
+  .units {
+    font-size: 15px;
+    position: relative;
+    top: -10px;
+    left: -5px;
+  }
+  
+  a {
+    color: #6639a6;
+  }
+  
+  a:visited {
+    color: blueviolet;
+  }
+  
+  a:hover {
+    color: #ffbd39;
+  }
+  
