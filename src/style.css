@@ -129,3 +129,10 @@
     color: #ffbd39;
   }
   
+  .coder {
+    text-align: center;
+    font-size: 20px;
+    font-family: 'Courier New', Courier, monospace;
+    color: #aa96da;
+    margin-top: -70px;
+  }
