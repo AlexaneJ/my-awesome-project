@@ -109,3 +109,16 @@ function getCurrentLocation(event) {
 
 let currentLocationButton = document.querySelector("#location-button");
 currentLocationButton.addEventListener("click", getCurrentLocation);
+
+
+// les cinq jours suivants
+let first = document.querySelector("#first");
+first.innerHTML=week[day+1];
+let second = document.querySelector("#second");
+second.innerHTML=week[day+2];
+let third = document.querySelector("#third");
+third.innerHTML=week[day+3];
+let fourth = document.querySelector("#fourth");
+fourth.innerHTML=week[day+4];
+let fifth = document.querySelector("#fifth");
+fifth.innerHTML=week[day+5];
