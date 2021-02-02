@@ -12,7 +12,6 @@
   
   .third {
     display: inline-block;
-    margin: -5px;
   }
   
   form {
@@ -27,9 +26,6 @@
     background-color: white;
   }
 
-  .button-current {
-    border-radius: 7px;
-  }
 
   button {
     border-radius: 7px;
@@ -37,6 +33,19 @@
     border-color: #f5ce86;
     border-width: 5px;
     background-color: #fae0c1;
+    transition: all 200ms ease;
+  }
+
+  button:hover {
+    background-color:rgb(196, 189, 180);
+  }
+
+  .search {
+    transition : all 200ms ease;
+
+  }
+  .search:hover {
+    background-color:#f5ce86;
   }
   
   input .submit {
@@ -91,8 +100,11 @@
     color: #aa96da;
     font-family: "Courier New", monospace;
     letter-spacing: -1px;
-  }
+    }
   
+    .degrees {
+      margin-top: -10px;
+    }
   .fourth {
     line-height: 50px;
     font-size: 50px;
@@ -139,4 +151,9 @@
     font-family: 'Courier New', Courier, monospace;
     color: #aa96da;
     margin-top: -70px;
+  }
+
+  ul {
+    padding : 0px;
+    margin : 15px;
   }
