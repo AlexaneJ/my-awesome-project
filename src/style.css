@@ -6,26 +6,11 @@
     margin: 40px 150px 50px;
     max-block-size: 50%;
     border-radius: 25px;
-    padding: 30px;
-    margin: 50 auto;
+    padding: 20px;
+    max-width: 600px;
+    margin: 50px auto;
+    display: block;
   }
-  
-  .third {
-    display: inline-block;
-  }
-  
-  form {
-    text-align: left;
-  }
-  
-  input {
-    border-radius: 7px;
-    border-style: solid;
-    border-color: #fccb90;
-    border-width: 5px;
-    background-color: white;
-  }
-
 
   button {
     border-radius: 7px;
@@ -34,6 +19,18 @@
     border-width: 5px;
     background-color: #fae0c1;
     transition: all 200ms ease;
+  }
+
+  form {
+    text-align: left;
+  }
+
+  input {
+    border-radius: 7px;
+    border-style: solid;
+    border-color: #fccb90;
+    border-width: 5px;
+    background-color: white;
   }
 
   button:hover {
@@ -52,6 +49,22 @@
     color: grey;
   }
   
+  .third {
+    display: inline-block;
+  }
+
+  .fa-cloud-rain {
+    color: #c8e7ed;
+  }
+  
+  .fa-cloud-sun {
+    color: #f2c6b4;
+  }
+  
+  .fa-sun {
+    color: #ffbd39;
+  }
+
   h1 {
     text-align: center;
     color: #6639a6;
@@ -90,6 +103,18 @@
     font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", sans-serif;
     letter-spacing: 0px;
   }
+  .degrees {
+    margin-top: -10px;
+}
+
+  .fourth {
+  line-height: 50px;
+  font-size: 50px;
+}
+
+  .data_w {
+    text-align: left;
+  }
   
   li {
     text-align: center;
@@ -101,26 +126,6 @@
     font-family: "Courier New", monospace;
     letter-spacing: -1px;
     }
-  
-    .degrees {
-      margin-top: -10px;
-    }
-  .fourth {
-    line-height: 50px;
-    font-size: 50px;
-  }
-  
-  .fa-cloud-rain {
-    color: #c8e7ed;
-  }
-  
-  .fa-cloud-sun {
-    color: #f2c6b4;
-  }
-  
-  .fa-sun {
-    color: #ffbd39;
-  }
   
   .second {
     text-align: center;
@@ -156,4 +161,9 @@
   ul {
     padding : 0px;
     margin : 15px;
+  }
+
+  .weather {
+    margin: 0 auto;
+    display: inline;
   }

@@ -111,14 +111,36 @@ let currentLocationButton = document.querySelector("#location-button");
 currentLocationButton.addEventListener("click", getCurrentLocation);
 
 
+
 // les cinq jours suivants
+let day2 = 0
 let first = document.querySelector("#first");
-first.innerHTML=week[day+1];
+if (day+1 >= 0) {
+  first.innerHTML=week[day2];
+} else {
+  first.innerHTML=week[day+1];
+}
 let second = document.querySelector("#second");
-second.innerHTML=week[day+2];
+if (day+2 > 8) {
+  second.innerHTML=week[day2 +1];  
+} else {
+  second.innerHTML=week[day+2];
+}
 let third = document.querySelector("#third");
-third.innerHTML=week[day+3];
+if (day+3 > 8) {
+  third.innerHTML=week[day2+2];
+} else {
+  third.innerHTML=week[day+3];
+}
 let fourth = document.querySelector("#fourth");
-fourth.innerHTML=week[day+4];
+if (day+4 > 8) {
+  fourth.innerHTML=week[day2+3];
+} else {
+  fourth.innerHTML=week[day+4];
+}
 let fifth = document.querySelector("#fifth");
-fifth.innerHTML=week[day+5];
+if (day+5 > 8) {
+  fifth.innerHTML=week[day2+4];
+} else {
+  fifth.innerHTML=week[day+5];
+}
