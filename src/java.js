@@ -185,3 +185,6 @@ second.innerHTML=week[day+2];
 third.innerHTML=week[day+3];
 fourth.innerHTML=week[day+4];
 fifth.innerHTML=week[day+5];
+
+
+searchCity("Toulouse");

@@ -105,7 +105,7 @@
   }
   .degrees {
     margin-top: -10px;
-    color: #f76d5f;
+    color: #6639a6;
 }
 
   .fourth {
@@ -123,7 +123,7 @@
     list-style-type: none;
     line-height: 25px;
     font-size: 18px;
-    color: #f76d5f;
+    color: #6639a6;
     font-family: "Courier New", monospace;
     letter-spacing: -1px;
     }
@@ -144,23 +144,27 @@
     position: relative;
     top: -10px;
     left: -5px;
-    color: #f76d5f;
+    color: #6639a6;
   }
   
   .a1 {
     color: #6639a6;
+    text-decoration: none;
   }
   
   .a1:hover {
     color: #ffbd39;
+    text-decoration: none;
   }
   
   .a2 {
-    color: #f76d5f;
+    color: #6639a6;
+    text-decoration: none;
   }
 
   .a2:hover {
     color:  #ffbd39;
+    text-decoration: none;
   }
   .coder {
     text-align: center;
