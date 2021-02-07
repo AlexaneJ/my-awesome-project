@@ -1,5 +1,5 @@
 .first {
-    background-color: #fff;
+    background-color: #fffcf7;
     border-width: 15px;
     border-style: solid;
     border-color: #fccb90;
@@ -105,6 +105,7 @@
   }
   .degrees {
     margin-top: -10px;
+    color: #f76d5f;
 }
 
   .fourth {
@@ -114,15 +115,15 @@
 
   .data_w {
     text-align: left;
+    color:#aa96da;
   }
   
   li {
     text-align: center;
     list-style-type: none;
-    word-spacing: 22px;
     line-height: 25px;
     font-size: 18px;
-    color: #aa96da;
+    color: #f76d5f;
     font-family: "Courier New", monospace;
     letter-spacing: -1px;
     }
@@ -137,19 +138,30 @@
     top: -10px;
     left: -5px;
   }
+
+  .units2 {
+    font-size: 10px;
+    position: relative;
+    top: -10px;
+    left: -5px;
+    color: #f76d5f;
+  }
   
-  a {
+  .a1 {
     color: #6639a6;
   }
   
-  a:visited {
-    color: blueviolet;
-  }
-  
-  a:hover {
+  .a1:hover {
     color: #ffbd39;
   }
   
+  .a2 {
+    color: #f76d5f;
+  }
+
+  .a2:hover {
+    color:  #ffbd39;
+  }
   .coder {
     text-align: center;
     font-size: 20px;
@@ -166,4 +178,8 @@
   .weather {
     margin: 0 auto;
     display: inline;
+  }
+
+  body {
+    background-image: linear-gradient(to right, #ffecd2 0%, #fcb69f 100%);;
   }

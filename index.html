@@ -6,10 +6,7 @@
     <title>Document</title>
     <link rel="stylesheet" href="src/style.css" />
     <link rel="preconnect" href="https://fonts.gstatic.com" />
-    <script
-      src="https://kit.fontawesome.com/95ae57c46d.js"
-      crossorigin="anonymous"
-    ></script>
+    <script src="https://kit.fontawesome.com/95ae57c46d.js" crossorigin="anonymous"></script>
     <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
   </head>
   <body>
@@ -34,38 +31,38 @@
           </span>
           <small>
             <span class="units">
-              <a href="#" id="celcius">°C </a> |
-              <a href="#" id="fahrenheit">°F </a>
+              <a class = "a1" href="#" id="celcius">°C </a> |
+              <a class = "a1" href="#" id="fahrenheit">°F </a>
             </span>
           </small>
         </strong>        
       </h2>
       <div class="second">
         <div class="third">
+          <p>
+            <i class="fas fa-cloud-rain" id = "icon"></i>
+          </p>
+        </div>
+        <div class="third">
           <ul>
             <li class = "data_w">
               Humidity:
-              <span>
+              <span id = "humidity">
                 73
               </span>
-              <span>%</span> 
+              %
             </li>
-            <li>
-              Precipitation:
-              <span>0</span>
-              <span>%</span>
+            <li class = "data_w">
+              Clouds:
+              <span id = "clouds">0</span>
+              %
             </li>
             <li class = "data_w">
               Wind:
-              <span>2</span>
-              <span>km/h</span>
+              <span id = "wind">2</span>
+              km/h
             </li>
           </ul>
-        </div>
-        <div class="third">
-          <p>
-            <i class="fas fa-cloud-rain"></i>
-          </p>
         </div>
       </div>
       <h3>
@@ -77,8 +74,18 @@
             <li id="first">
               Monday
             </li>
-            <li class = "degrees">
-              <strong> 3°C </strong>
+            <li class = "degrees" >
+              <strong>
+                <span class="degree" id="temperature2">
+                  12
+                </span>
+                <small>
+                  <span class="units2">
+                    <a class="a2" href="#" id="celcius2">°C </a> |
+                    <a class="a2" href="#" id="fahrenheit2">°F </a>
+                  </span>
+                </small>
+              </strong>
             </li>
             <li class="fourth">
               <i class="fas fa-sun"></i>
@@ -91,7 +98,17 @@
               Tuesday
             </li>
             <li class = "degrees">
-              <strong> 1°C </strong>
+              <strong>
+                <span class="degree" id="temperature3">
+                  12
+                </span>
+                <small>
+                  <span class="units2">
+                    <a class="a2"  href="#" id="celcius3">°C </a> |
+                    <a class="a2" href="#" id="fahrenheit3">°F </a>
+                  </span>
+                </small>
+              </strong>
             </li>
             <li class="fourth">
               <i class="fas fa-cloud-rain"></i>
@@ -104,7 +121,17 @@
               Wednesday
             </li>
             <li class = "degrees">
-              <strong> 2°C </strong>
+              <strong>
+                <span class="degree" id="temperature4">
+                  12
+                </span>
+                <small>
+                  <span class="units2">
+                    <a class="a2" href="#" id="celcius4">°C </a> |
+                    <a class="a2" href="#" id="fahrenheit4">°F </a>
+                  </span>
+                </small>
+              </strong>
             </li>
             <li class="fourth">
               <i class="fas fa-cloud-sun"></i>
@@ -117,7 +144,17 @@
               Thursday
             </li>
             <li class = "degrees">
-              <strong> 3°C </strong>
+              <strong>
+                <span class="degree" id="temperature5">
+                  12
+                </span>
+                <small>
+                  <span class="units2">
+                    <a class="a2" href="#" id="celcius5">°C </a> |
+                    <a class="a2" href="#" id="fahrenheit5">°F </a>
+                  </span>
+                </small>
+              </strong>
             </li>
             <li class="fourth">
               <i class="fas fa-cloud-sun"></i>
@@ -130,7 +167,17 @@
               Friday
             </li>
             <li class = "degrees">
-              <strong> 0°C </strong>
+              <strong>
+                <span class="degree" id="temperature6">
+                  12
+                </span>
+                <small>
+                  <span class="units2">
+                    <a class="a2" href="#" id="celcius6">°C </a> |
+                    <a class="a2" href="#" id="fahrenheit6">°F </a>
+                  </span>
+                </small>
+              </strong>
             </li>
             <li class="fourth">
               <i class="fas fa-cloud-rain"></i>
