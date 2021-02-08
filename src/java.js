@@ -27,6 +27,8 @@ if (date === 1 || date === 21 || date === 31) {
 }
 currentDate.innerHTML = `${currentMonth}, ${currentDay} ${date} ${hour}:${min}`;
 
+// apiKey variable used multiple times in our code 
+let apiKey = "31540d8a670db4f2eb62d972df6f873b";
 
 // these functions allow you to enter a city and stores it in order to display weather
 function tellsCity(event) {
@@ -42,9 +44,12 @@ function tellsCity(event) {
   searchCity(namePlace);
 }
 function searchCity(city) {
-  let apiKey = "31540d8a670db4f2eb62d972df6f873b";
   let apiUrl = `https://api.openweathermap.org/data/2.5/weather?q=${city}&appid=${apiKey}&units=metric`;
   axios.get(apiUrl).then(tellsTemperature);
+
+  /*let apiUrl2 = `https://api.openweathermap.org/data/2.5/forecast?q=${city}&appid=${apiKey}`;
+  axios.get(apiUrl2).then(tellsForecast);
+  console.log(apiUurl2);*/
 }
 function tellsTemperature(response) {
   document.querySelector("h1").innerHTML = response.data.name;
@@ -59,6 +64,9 @@ function tellsTemperature(response) {
     "src",
     `http://openweathermap.org/img/wn/${response.data.weather[0].icon}@2x.png`
   );
+  let descriptionElement = response.data.weather[0].description;
+  descriptionElement = descriptionElement.charAt(0).toUpperCase() + descriptionElement.slice(1);
+  document.querySelector("#description").innerHTML = descriptionElement;
 }
 
 let searchForm = document.querySelector("#form");
@@ -186,5 +194,5 @@ third.innerHTML=week[day+3];
 fourth.innerHTML=week[day+4];
 fifth.innerHTML=week[day+5];
 
-
+// default city showing
 searchCity("Toulouse");
