@@ -188,9 +188,7 @@
   }
 
   .description {
-    padding : 5px;
-    position : relative;
-    left : -42%;
+    padding-top : 5px;
     top : 10px;
     color : rgb(206, 200, 200);
   }
