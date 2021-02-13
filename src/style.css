@@ -53,18 +53,6 @@
     display: inline-block;
   }
 
-  .fa-cloud-rain {
-    color: #c8e7ed;
-  }
-  
-  .fa-cloud-sun {
-    color: #f2c6b4;
-  }
-  
-  .fa-sun {
-    color: #ffbd39;
-  }
-
   h1 {
     text-align: center;
     color: #6639a6;
@@ -104,13 +92,7 @@
     letter-spacing: 0px;
   }
   .degrees {
-    margin-top: -10px;
     color: #6639a6;
-}
-
-  .fourth {
-  line-height: 50px;
-  font-size: 50px;
 }
 
   .data_w {
@@ -191,4 +173,15 @@
     padding-top : 5px;
     top : 10px;
     color : rgb(206, 200, 200);
+  }
+
+  .newImage {
+    width : 80px;
+    margin-top: -30px;
+  }
+
+  li img {
+    width: 50px;
+    margin-top: -10px;
+    padding-top: 0px;
   }
