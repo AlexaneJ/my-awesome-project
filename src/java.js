@@ -61,6 +61,19 @@ function tellsTemperature(response) {
   document.querySelector("h1").innerHTML = response.data.name;
 
   celsiusTemperature = Math.round(response.data.main.temp)
+  let temperatureElement = document.querySelector("#temperature");
+function toFahrenheit(event) {
+  event.preventDefault();
+  temperatureElement.innerHTML = Math.round( celsiusTemperature* 1.8 + 32.0);}
+function toCelcius(event) {
+  event.preventDefault();
+  temperatureElement.innerHTML = celsiusTemperature;
+}
+let fahrenheitLink = document.querySelector("#fahrenheit");
+fahrenheitLink.addEventListener("click", toFahrenheit);
+
+let celciusLink = document.querySelector("#celcius");
+celciusLink.addEventListener("click", toCelcius);
   document.querySelector("#temperature").innerHTML = celsiusTemperature;
   document.querySelector("#clouds").innerHTML = Math.round(response.data.clouds.all);
   document.querySelector("#humidity").innerHTML = response.data.main.humidity;
@@ -77,22 +90,6 @@ function tellsTemperature(response) {
 
 let searchForm = document.querySelector("#form");
 searchForm.addEventListener("submit", tellsCity);
-
-// tells temperature in Celsius and Fahrenheit
-let temperatureElement = document.querySelector("#temperature");
-function toFahrenheit(event) {
-  event.preventDefault();
-  temperatureElement.innerHTML = Math.round(celsiusTemperature * 1.8 + 32.0);}
-function toCelcius(event) {
-  event.preventDefault();
-  temperatureElement.innerHTML = celsiusTemperature;
-}
-let fahrenheitLink = document.querySelector("#fahrenheit");
-fahrenheitLink.addEventListener("click", toFahrenheit);
-
-let celsiusTemperature = null;
-let celciusLink = document.querySelector("#celcius");
-celciusLink.addEventListener("click", toCelcius);
 
 // tells temperature depending on where is your computer
 function displayWeatherCondition(response) {
